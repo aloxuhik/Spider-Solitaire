@@ -79,10 +79,7 @@ namespace Assets.Code
 
             return Cards.GetRange(cardIndex, Cards.Count - cardIndex);
         }
-
         
-
-
         public void RefreshPickable()
         {
             if (Cards.Count == 0)

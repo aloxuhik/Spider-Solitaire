@@ -84,8 +84,8 @@ namespace Assets.Code
                     cards[i].Pickable = true;
 
                 int k = random.Next(n);
-               
-                TextToShow.text = (n+1).ToString() + " switched with " + (k+1).ToString();
+
+                TextToShow.text = (n + 1).ToString() + " switched with " + (k + 1).ToString();
                 var gameObject = Instantiate(Tick);
                 gameObject.transform.position = new Vector3(n, 0);
 
@@ -101,9 +101,6 @@ namespace Assets.Code
                 {
                     cards[i].transform.position = new Vector3(i, 0);
                 }
-
-
-               //yield return new WaitForSeconds(4f);
             }
 
             var Temp = Instantiate(Tick);

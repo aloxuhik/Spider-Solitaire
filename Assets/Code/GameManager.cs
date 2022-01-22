@@ -24,6 +24,7 @@ namespace Assets.Code
 
         /// <summary>
         /// Cards sets must be ordered same as enum CardColors
+        /// 0 - Club, 1 - Hearts ...
         /// </summary>
         public List<CardSet> CardSets;
 
